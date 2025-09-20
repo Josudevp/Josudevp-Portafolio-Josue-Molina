@@ -1,13 +1,10 @@
 @import "tailwindcss";
-
 .nav__item-nav{
     @apply hover:text-cyan-400 cursor-pointer
 }
-
 .skills__item {
     @apply bg-gray-600 py-1 px-4 rounded-2xl 
 }
-
 /* Hover effect for cards */
 .skill-card, .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
